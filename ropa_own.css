@@ -1,0 +1,128 @@
+html{
+    background-color: black;
+}
+
+body {
+   display: grid;
+   place-items: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+p{
+    text-align: center; 
+    color: white;
+}
+
+
+.cuadrado{
+
+    background: rgb black;
+    text-align: center;
+    display: inline-flex;
+    margin: 29px;
+}
+
+
+.contenedor{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    background: rgb(53, 119, 53);
+    margin-top: auto;
+}
+
+.encabezado{
+    margin: 1px 500px;
+}
+
+a{
+margin-top: auto;
+}
+
+footer{
+    background-color:  rgb(53, 119, 53);
+    padding: 10px;
+    color: white;
+    width: 1300px;
+}
+
+footer section{
+    float: left;
+    margin-right: 250px;
+}
+
+footer p{
+    float: center;
+}
+
+footer a{
+transition: color 0.3s ease;
+color: white;
+text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+header{
+    display: inline-flex;
+}
+
+#logo{
+    margin-right: 325px;
+}
+
+#lineas{
+    margin-left: 375px;
+}
+
+.logo{
+    width: 65x;
+    height: 65px;
+    background: url(IMG/LOGO.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0px 7px 21px #01e701);
+    animation: rotar 5s linear infinite;
+    margin-left: 615px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(-180deg);
+    }
+}
+
+.cuadrado{
+    width: 225px;
+    height: 425px;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    display: inline-flexbox;
+    border-radius: 15px;
+}
