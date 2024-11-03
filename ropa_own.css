@@ -28,6 +28,7 @@ h3{
     text-align: center;
     color: white;
     padding-right: 350px;
+    display: flex;
 }
 
 p{
