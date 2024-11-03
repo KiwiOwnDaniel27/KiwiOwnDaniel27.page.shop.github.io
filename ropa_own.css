@@ -244,6 +244,7 @@ color: white
 
 .carrito .carrito-item .btn-eliminar i{
     pointer-events: none;
+    color: white;
 }
 
 .carrito-total{
