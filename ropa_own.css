@@ -229,7 +229,6 @@ color: white
 .carrito .carrito-item .btn-eliminar{
     position: absolute;
     right: 15px;
-    color: white;
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -244,7 +243,6 @@ color: white
 
 .carrito .carrito-item .btn-eliminar i{
     pointer-events: none;
-    color: white;
 }
 
 .carrito-total{
@@ -265,7 +263,8 @@ color: white
     display: block;
     width: 100%;
     border: none;
-    background: white;
+    background: rgb(53, 119, 53);
+    color: white;
     border-radius: 5px;
     font-size: 10px;
     padding: 20px;
@@ -279,3 +278,8 @@ color: white
 .carrito-total .btn-pagar:hover{
     scale: 1.05;
 }
+
+i{
+    color: white;
+}
+
